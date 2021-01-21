@@ -1,6 +1,6 @@
 FROM debian:buster-slim as binary
 
-ENV UPSTREAM_VERSION v1.1.2
+ARG UPSTREAM_VERSION
 ENV DOWNLOAD_URL https://github.com/ava-labs/avalanchego/releases/download/$UPSTREAM_VERSION/avalanchego-linux-amd64-$UPSTREAM_VERSION.tar.gz
 
 RUN DEBIAN_FRONTEND=noninteractive \
