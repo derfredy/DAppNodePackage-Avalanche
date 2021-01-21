@@ -8,10 +8,11 @@
   "type": "service",
   "author": "DerFredy https://github.com/derfredy",
   "categories": ["Blockchain"],
+  "license": "GLP-3.0",
   "links": {
+    "endpoint": "http://avalanche.public.dappnode:9150",
     "homepage": "https://www.avalabs.org/"
   },
-  "license": "GLP-3.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/derfredy/DAppNodePackage-Avalanche.git"
