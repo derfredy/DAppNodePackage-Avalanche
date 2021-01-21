@@ -1,0 +1,14 @@
+version: "3.4"
+services:
+  avalanche.public.dappnode.eth:
+    image: "avalanche.public.dappnode.eth:0.1.0"
+    build: ./build
+    volumes:
+      - "chain-data:/root/.avalanchego/db"
+      - "validator-data:/root/.avalanchego/staking"
+    ports:
+      - "9651"
+    restart: unless-stopped
+volumes:
+  chain-data: {}
+  validator-data: {}

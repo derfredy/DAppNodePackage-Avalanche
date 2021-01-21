@@ -1,0 +1,29 @@
+{
+  "name": "avalanche.public.dappnode.eth",
+  "version": "0.1.0",
+  "upstreamVersion": "v1.1.2",
+  "upstreamArg": "UPSTREAM_VERSION",
+  "shortDescription": "Avalanche node",
+  "description": "Avalanche node",
+  "type": "service",
+  "author": "DerFredy https://github.com/derfredy",
+  "categories": ["Blockchain"],
+  "links": {
+    "homepage": "https://www.avalabs.org/"
+  },
+  "license": "GLP-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derfredy/DAppNodePackage-Avalanche.git"
+  },
+  "bugs": {
+    "url": "https://github.com/derfredy/DAppNodePackage-Avalanche/issues"
+  },
+  "backup": [
+    {
+      "name": "avalanchevalidator",
+      "path": "/root/.avalanchego/staking",
+      "service": "avalanche.public.dappnode.eth"
+    }
+  ]
+}
