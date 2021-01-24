@@ -1,4 +1,7 @@
 # DAppNodePackage-Avalanche
 
-## Installer
-http://my.dappnode/#/installer/%2Fipfs%2FQmPkwhZJ648B2VBCjWcvjNn1kpTEaD5n5TXvoss1xNpQd6
+## DISCONTINUED
+
+This package has been deprecated in favour of the following one, which is build and maintained by DAppNode core devs:
+
+https://github.com/Colm3na/DAppNodePackage-avalanche
